@@ -18,6 +18,7 @@
 		DB44577828584441009FD333 /* MovieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44577728584441009FD333 /* MovieAppUITestsLaunchTests.swift */; };
 		DB44578528584482009FD333 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44578428584482009FD333 /* Model.swift */; };
 		DB445787285848A2009FD333 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB445786285848A2009FD333 /* ApiService.swift */; };
+		DB44578928585B21009FD333 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44578828585B21009FD333 /* MovieViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		DB44577728584441009FD333 /* MovieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		DB44578428584482009FD333 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DB445786285848A2009FD333 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		DB44578828585B21009FD333 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				DB44576228584441009FD333 /* Info.plist */,
 				DB44578428584482009FD333 /* Model.swift */,
 				DB445786285848A2009FD333 /* ApiService.swift */,
+				DB44578828585B21009FD333 /* MovieViewModel.swift */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				DB44575528584440009FD333 /* AppDelegate.swift in Sources */,
 				DB44575728584440009FD333 /* SceneDelegate.swift in Sources */,
 				DB44578528584482009FD333 /* Model.swift in Sources */,
+				DB44578928585B21009FD333 /* MovieViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
