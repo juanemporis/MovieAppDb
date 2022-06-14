@@ -16,6 +16,8 @@
 		DB44576C28584441009FD333 /* MovieAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44576B28584441009FD333 /* MovieAppTests.swift */; };
 		DB44577628584441009FD333 /* MovieAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44577528584441009FD333 /* MovieAppUITests.swift */; };
 		DB44577828584441009FD333 /* MovieAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44577728584441009FD333 /* MovieAppUITestsLaunchTests.swift */; };
+		DB44578528584482009FD333 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44578428584482009FD333 /* Model.swift */; };
+		DB445787285848A2009FD333 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB445786285848A2009FD333 /* ApiService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DB44577128584441009FD333 /* MovieAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovieAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB44577528584441009FD333 /* MovieAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITests.swift; sourceTree = "<group>"; };
 		DB44577728584441009FD333 /* MovieAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DB44578428584482009FD333 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		DB445786285848A2009FD333 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				DB44575D28584441009FD333 /* Assets.xcassets */,
 				DB44575F28584441009FD333 /* LaunchScreen.storyboard */,
 				DB44576228584441009FD333 /* Info.plist */,
+				DB44578428584482009FD333 /* Model.swift */,
+				DB445786285848A2009FD333 /* ApiService.swift */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -259,8 +265,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DB44575928584440009FD333 /* ViewController.swift in Sources */,
+				DB445787285848A2009FD333 /* ApiService.swift in Sources */,
 				DB44575528584440009FD333 /* AppDelegate.swift in Sources */,
 				DB44575728584440009FD333 /* SceneDelegate.swift in Sources */,
+				DB44578528584482009FD333 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
