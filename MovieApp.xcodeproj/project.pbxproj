@@ -19,6 +19,7 @@
 		DB44578528584482009FD333 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44578428584482009FD333 /* Model.swift */; };
 		DB445787285848A2009FD333 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB445786285848A2009FD333 /* ApiService.swift */; };
 		DB44578928585B21009FD333 /* MovieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB44578828585B21009FD333 /* MovieViewModel.swift */; };
+		DB94A3FB285953EB007528FD /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB94A3FA285953EB007528FD /* MovieTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		DB44578428584482009FD333 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		DB445786285848A2009FD333 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		DB44578828585B21009FD333 /* MovieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieViewModel.swift; sourceTree = "<group>"; };
+		DB94A3FA285953EB007528FD /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 				DB44578428584482009FD333 /* Model.swift */,
 				DB445786285848A2009FD333 /* ApiService.swift */,
 				DB44578828585B21009FD333 /* MovieViewModel.swift */,
+				DB94A3FA285953EB007528FD /* MovieTableViewCell.swift */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 			files = (
 				DB44575928584440009FD333 /* ViewController.swift in Sources */,
 				DB445787285848A2009FD333 /* ApiService.swift in Sources */,
+				DB94A3FB285953EB007528FD /* MovieTableViewCell.swift in Sources */,
 				DB44575528584440009FD333 /* AppDelegate.swift in Sources */,
 				DB44575728584440009FD333 /* SceneDelegate.swift in Sources */,
 				DB44578528584482009FD333 /* Model.swift in Sources */,
