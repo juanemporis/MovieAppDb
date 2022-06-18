@@ -30,7 +30,7 @@ class MovieTableViewCell: UITableViewCell {
         guard let rate = rating else {
             return
         }
-        self .movieYear.text = String (rate)
+        self .movieRate.text = String (rate)
         self .movieOverView.text = overview
         
         guard let posterString = poster else {

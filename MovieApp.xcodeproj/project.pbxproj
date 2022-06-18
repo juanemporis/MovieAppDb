@@ -107,18 +107,16 @@
 		DB44575328584440009FD333 /* MovieApp */ = {
 			isa = PBXGroup;
 			children = (
+				DBE6E448285D85EE00416EEA /* Model */,
+				DBE6E447285D85E700416EEA /* View */,
+				DBE6E446285D850D00416EEA /* ViewModel */,
 				DBE6E444285D811100416EEA /* NetWorking */,
 				DB44575428584440009FD333 /* AppDelegate.swift */,
 				DB44575628584440009FD333 /* SceneDelegate.swift */,
 				DB44575828584440009FD333 /* MovieViewController.swift */,
-				DB44575A28584440009FD333 /* Main.storyboard */,
 				DB44575D28584441009FD333 /* Assets.xcassets */,
 				DB44575F28584441009FD333 /* LaunchScreen.storyboard */,
 				DB44576228584441009FD333 /* Info.plist */,
-				DB44578428584482009FD333 /* Model.swift */,
-				DB445786285848A2009FD333 /* ApiService.swift */,
-				DB44578828585B21009FD333 /* MovieViewModel.swift */,
-				DB94A3FA285953EB007528FD /* MovieTableViewCell.swift */,
 			);
 			path = MovieApp;
 			sourceTree = "<group>";
@@ -143,8 +141,34 @@
 		DBE6E444285D811100416EEA /* NetWorking */ = {
 			isa = PBXGroup;
 			children = (
+				DB445786285848A2009FD333 /* ApiService.swift */,
 			);
 			path = NetWorking;
+			sourceTree = "<group>";
+		};
+		DBE6E446285D850D00416EEA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DB44578828585B21009FD333 /* MovieViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DBE6E447285D85E700416EEA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DB94A3FA285953EB007528FD /* MovieTableViewCell.swift */,
+				DB44575A28584440009FD333 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DBE6E448285D85EE00416EEA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DB44578428584482009FD333 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
